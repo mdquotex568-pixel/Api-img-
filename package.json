@@ -1,0 +1,44 @@
+{
+  "name": "admin-card-api",
+  "version": "1.0.0",
+  "description": "Admin Card Generator API for GoatBot V2 - Generate premium admin promotion/demotion cards with Facebook profile pictures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "canvas": "^2.11.2",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "goatbot",
+    "admin",
+    "card",
+    "api",
+    "messenger",
+    "canvas",
+    "facebook",
+    "promotion",
+    "demotion"
+  ],
+  "author": "Ashik BBZ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/admin-card-api"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/admin-card-api/issues"
+  },
+  "homepage": "https://github.com/your-username/admin-card-api#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
